@@ -1,4 +1,4 @@
-var divNames = ["Background", "charicter", "Movement", "Fall", "Fall2", "Extras", "UserName", "Submit"];
+var divNames = ["Background", "Character", "Movement", "Fall", "Fall2", "Extras", "UserName"];
 
 function setup() {
     alert("im working");
