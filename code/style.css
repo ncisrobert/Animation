@@ -1,0 +1,46 @@
+html,
+body {
+    background: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", "Arial", sans-serif;
+    line-height: 150%;
+    font-size: 16px;
+    color: #4d4d4d;
+    
+    background-image: url("assets/tri.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    
+    
+}
+#title {
+    text-align: center;
+}
+.setup {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+    background-color: white;
+    padding-top: 2px;
+        
+}
+.setupElement {
+    height: 69px;
+} 
+
+h3 {}
+
+#Next {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#Submit {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+}
