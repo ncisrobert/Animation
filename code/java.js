@@ -11,11 +11,6 @@ var Fall2;
 var Extras;
 var UserName;
 
-
-var varnames = [ Name, Background, Character, Movement, Fall, Fall2, Extras, UserName];
-
-
-
 function setup() {
     alert("im working");
      
@@ -32,10 +27,6 @@ var counter = 0 ;
 function Next() {
     
     document.getElementById(divNames[counter]).style.display = "none";
-    
-    varnames[counter] = document.getElementById("name").value;
-    
-    alert(Name);
     
     counter = counter +1;
     
