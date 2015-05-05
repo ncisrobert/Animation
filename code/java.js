@@ -31,8 +31,19 @@ function Next() {
     counter = counter +1;
     
     document.getElementById(divNames[counter]).style.display = "block";
+    }
+
+function submit() {
+  
+    Name =  document.getElementById("name").value;
+    Background = document.getElementById("background").value; 
+    Charicter = document.getElementById("charicter").value; 
+    Movement = document.getElementById("movement").value; 
+    Fall = document.getElementById("fall").value; 
+    Fall2 = document.getElementById("fall2").value;
+    Extras = document.getElementById("extras").value; 
+    UserName = document.getElementById("username").value; 
     
-    
- 
+    alert(Name + Background + Charicter+ Movement + Fall + Fall2 + Extras + UserName )
 }
     
