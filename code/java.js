@@ -1,10 +1,9 @@
 var divNames = ["Name", "Background", "Character", "Movement", "Fall", "Fall2", "Extras", "UserName"];
 
-
-
 var Name;
 var Background;
 var Character;
+var Movement;
 var Movement;
 var Fall;
 var Fall2;
